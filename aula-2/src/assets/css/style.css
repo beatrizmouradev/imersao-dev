@@ -1,0 +1,90 @@
+body {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  min-height: 400px;
+  background-color: #B1BCCD;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 10% auto;
+  padding: 40px;
+  width: 60vw;
+  height: 50vh;
+  background-image: linear-gradient(to right, #C6EDE5, #E2BFF5);
+  border-radius: 24px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.container .header__title {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #0C0D5B;
+  margin-bottom: 16px;
+}
+.container .header__subtitle {
+  font-size: 24px;
+  color: #0C0D5B;
+  margin-bottom: 48px;
+}
+.container .header__image {
+  position: absolute;
+  top: 7%;
+  margin-left: 52%;
+  height: 250px;
+}
+.container .header__error {
+  color: red;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+.container .main .form {
+  display: flex;
+  justify-content: space-between;
+}
+.container .main .form .group {
+  display: flex;
+  flex-direction: column;
+}
+.container .main .form .group__money, .container .main .form .group__input {
+  border: 0;
+  border-radius: 8px;
+  background-color: #B1BCCD;
+  margin-bottom: 8px;
+  box-shadow: 3px 3px 8px #B1BCCD;
+  outline: none;
+  padding: 20px;
+  font-size: 16px;
+  font-family: "Poppins";
+  min-width: 88px;
+  height: 16px;
+  text-align: center;
+}
+.container .main .form .group__label {
+  text-align: center;
+  font-weight: bold;
+  color: #0C0D5B;
+}
+.container .main .form .group__button {
+  border: 0;
+  border-radius: 8px;
+  background-color: #0C0D5B;
+  padding: 12px 20px;
+  display: flex;
+  box-shadow: 3px 3px 8px #B1BCCD;
+}
+.container .main .form .group__button svg {
+  display: flex;
+  margin: auto;
+}
+.container .main__image {
+  position: absolute;
+  left: 160px;
+  bottom: 59px;
+  height: 250px;
+}
+
+/*# sourceMappingURL=style.css.map */

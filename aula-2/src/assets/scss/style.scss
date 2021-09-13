@@ -1,0 +1,134 @@
+$font: 'Poppins',
+sans-serif;
+
+%caracteristicas-container {
+    border-radius: 2%;
+    box-shadow: rgb(255 255 255 / 10%) 0px 1px 1px 0px inset, rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;
+}
+
+body {
+    display: flex;
+    font-family: $font;
+    min-height: 400px;
+    background-color: #B1BCCD;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 10% auto;
+    padding: 40px;
+    width: 60vw;
+    height: 50vh;
+    background-image: linear-gradient(to right, #C6EDE5, #E2BFF5);
+    border-radius: 24px;
+    box-shadow: rgb(255 255 255 / 10%) 0px 1px 1px 0px inset, rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;
+
+
+    .header {
+
+        &__title {
+            font-size: 48px;
+            font-weight: bolder;
+            color: #0C0D5B;
+            margin-bottom: 16px;
+
+        }
+
+        &__subtitle {
+            font-size: 24px;
+            color: #0C0D5B;
+            margin-bottom: 48px;
+
+
+        }
+
+        &__image {
+            position: absolute;
+            top: 7%;
+            margin-left: 52%;
+            height: 250px;
+        }
+
+        &__error {
+            color: red;
+            margin-bottom: 8px;
+            font-size: 16px;
+        }
+
+    }
+
+    .main {
+        
+        .form {
+            display: flex;
+            justify-content: space-between;
+
+
+            .group {
+                display: flex;
+                flex-direction: column;
+
+                &__money, &__input {
+                    border: 0;
+                    border-radius: 8px;
+                    background-color: #B1BCCD;
+                    margin-bottom: 8px;
+                    box-shadow: 3px 3px 8px #B1BCCD;
+                    outline: none;
+                    padding: 20px;
+                    font-size: 16px;
+                    font-family: "Poppins";
+                    min-width: 88px;
+                    height: 16px;
+                    text-align: center;
+
+
+                }
+
+                &__label {
+                    text-align: center;
+                    font-weight: bold;
+                    color: #0C0D5B;
+                }
+
+                &__button {
+                    border: 0;
+                    border-radius: 8px;
+                    background-color: #0C0D5B;
+                    padding: 12px 20px;
+                    display: flex;
+                    box-shadow: 3px 3px 8px #B1BCCD;
+
+
+
+                    svg {
+                        display: flex;
+                        margin: auto;
+                    }
+
+                }
+
+
+
+            }
+
+
+
+        }
+
+        &__image {
+            position: absolute;
+            left: 160px;
+            bottom: 59px;
+            height: 250px;
+        }
+    }
+
+
+
+
+}

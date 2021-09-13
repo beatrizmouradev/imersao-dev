@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Imersão Dev - Aula 2</title>
+        <link rel="stylesheet" href="./src/assets/css/reset.css">
+        <link rel="stylesheet" href="./src/assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <div class="container">
+            <header class="container__header header">
+                <h1 class="header__title">Coin Converter</h1>
+                <h2 class="header__subtitle">Find out how much your money is worth around the world!</h2>
+                <img class="header__image" src="./src/assets/img/Group 74.svg" alt="">
+                <p class="header__error"></p>
+
+            </header>
+            <main class=" container__main main">
+                <form class="main__form form">
+                    <fieldset class="group">
+                        <input class="group__input input-real" type="number">
+                        <label class="group__label" for="">Real</label>
+                    </fieldset>
+
+                    <fieldset class="group">
+                        <button class="group__button" id="button" type="button">
+                            <svg width="42" height="35" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7 29.75L14 22.75M14 12.25H35H14ZM35 12.25L28 5.25L35 12.25ZM35 12.25L28 19.25L35 12.25ZM28 29.75H7H28ZM7 29.75L14 36.75L7 29.75Z"
+                                    stroke="#C7EDE6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </fieldset>
+
+                    <fieldset class="group">
+                        <label class="group__money dollar" type="number"></label>
+                        <label class="group__label" for="">Dollar</label>
+                    </fieldset>
+
+                    <fieldset class="group">
+                        <label class="group__money eur" type="number"></label>
+                        <label class="group__label" for="">Eur</label>
+                    </fieldset>
+
+                    <fieldset class="group">
+                        <label class="group__money pound" type="number"></label>
+                        <label class="group__label" for="">Pound</label>
+                    </fieldset>
+
+                    <fieldset class="group">
+                        <label class="group__money bitcoin" type="number"></label>
+                        <label class="group__label" for="">Bitcoin</label>
+                    </fieldset>
+
+                </form>
+                <img class="main__image" src="./src/assets/img/Group 75.png" alt="" srcset="">
+            </main>
+        </div>
+
+        <!--import JS-->
+        <script src="src/index.js"></script>
+    </body>
+
+</html>
