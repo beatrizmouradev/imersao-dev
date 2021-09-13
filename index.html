@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imersão Dev - Aula 1</title>
+    <link rel="stylesheet" href="./src/assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/assets/css/style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <section class="container__presentation presentation">
+                <h1 class="presentation__title">Average Calculator</h1>
+                <p class="presentation__subtitle">Find out what your quarter grade!</p>
+                <img class="presentation__image" src="./src/assets/img/undraw_Calculator_0evy (1).svg" alt="">
+            </section>
+            <section class="container__calculator calculator">
+                <form class="calculator__form form">
+                    <input class="first-grade form__input" type="number" placeholder="First quarter grade">
+                    <input class="second-grade form__input" type="number" placeholder="Second quarter grade">
+                    <input class="third-grade form__input" type="number" placeholder="Third quarter grade">
+                    <input class="fourth-grade form__input" type="number" placeholder="Fourth quarter grade">
+                    <div class="form__actions actions">
+                        <button class="actions__button" id="button" onclick="calculateButton()" type="button">Calculate</button>
+                    </div>
+                    <label class="form__label"></label>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p></p>
+    </footer>
+
+    //import JS
+    <script src="src/index.js"></script>
+</body>
+
+</html>

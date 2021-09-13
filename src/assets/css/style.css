@@ -1,0 +1,107 @@
+main .container__calculator .form .actions__button, main .container {
+  border-radius: 2%;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 400px;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgdmlld0JveD0iMCAwIDgwMCA2MDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGZpbHRlcj0idXJsKCNmaWx0ZXIwX2YpIj4KPHJlY3QgeD0iLTYwIiB5PSIxMjQiIHdpZHRoPSI0MzEiIGhlaWdodD0iNTM4IiBmaWxsPSIjRjU2Q0YwIi8+CjwvZz4KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjFfZikiPgo8cmVjdCB4PSIzMjIiIHk9IjE3MCIgd2lkdGg9IjUyMyIgaGVpZ2h0PSI0ODAiIGZpbGw9IiNEMjU3OEIiLz4KPC9nPgo8cmVjdCB4PSIxMjMiIHk9IjMyNyIgd2lkdGg9IjI1NCIgaGVpZ2h0PSIyMTEiIGZpbGw9IiNGNTZDRjAiLz4KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjJfZikiPgo8cGF0aCBkPSJNODA2LjUgLTE2OUwxMTQ0LjY4IDI2VjQxNkw4MDYuNSA2MTFMNDY4LjMxNyA0MTZWMjZMODA2LjUgLTE2OVoiIGZpbGw9IiNBQjYxRTQiLz4KPC9nPgo8cGF0aCBkPSJNNjA5LjUgMjE0TDc1OC44ODkgMzAwVjQ3Mkw2MDkuNSA1NThMNDYwLjExMSA0NzJWMzAwTDYwOS41IDIxNFoiIGZpbGw9IiNBQjYxRTQiLz4KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjNfZikiPgo8Y2lyY2xlIGN4PSI0MTYuNSIgY3k9IjYzLjUiIHI9IjI4MS41IiBmaWxsPSIjN0E4REY0Ii8+CjwvZz4KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjRfZikiPgo8cGF0aCBkPSJNNDYuNSAtMzc3TDQ1My45NjUgMzI4Ljc1SC0zNjAuOTY1TDQ2LjUgLTM3N1oiIGZpbGw9IiM5ODc5RjAiLz4KPC9nPgo8cGF0aCBkPSJNLTExIDkzTDE0MSAzNTZILTE2M0wtMTEgOTNaIiBmaWxsPSIjOTg3OUYwIi8+CjxyZWN0IHg9IjQxMyIgeT0iNzUiIHdpZHRoPSIxNzciIGhlaWdodD0iMzMwIiBmaWxsPSIjOTg3OUYwIi8+CjxnIGZpbHRlcj0idXJsKCNmaWx0ZXI1X2YpIj4KPHJlY3QgeD0iMjE1IiB5PSIzNCIgd2lkdGg9IjE3NCIgaGVpZ2h0PSIyMzciIGZpbGw9IiNGNTZDRjAiLz4KPC9nPgo8Y2lyY2xlIGN4PSIzNzEiIGN5PSI1MiIgcj0iMTgyIiBmaWxsPSIjN0E4REY0Ii8+CjxkZWZzPgo8ZmlsdGVyIGlkPSJmaWx0ZXIwX2YiIHg9Ii03MCIgeT0iMTE0IiB3aWR0aD0iNDUxIiBoZWlnaHQ9IjU1OCIgZmlsdGVyVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiPgo8ZmVGbG9vZCBmbG9vZC1vcGFjaXR5PSIwIiByZXN1bHQ9IkJhY2tncm91bmRJbWFnZUZpeCIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9IkJhY2tncm91bmRJbWFnZUZpeCIgcmVzdWx0PSJzaGFwZSIvPgo8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSI1IiByZXN1bHQ9ImVmZmVjdDFfZm9yZWdyb3VuZEJsdXIiLz4KPC9maWx0ZXI+CjxmaWx0ZXIgaWQ9ImZpbHRlcjFfZiIgeD0iMjg2IiB5PSIxMzQiIHdpZHRoPSI1OTUiIGhlaWdodD0iNTUyIiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+CjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+CjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9InNoYXBlIi8+CjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjE4IiByZXN1bHQ9ImVmZmVjdDFfZm9yZWdyb3VuZEJsdXIiLz4KPC9maWx0ZXI+CjxmaWx0ZXIgaWQ9ImZpbHRlcjJfZiIgeD0iNDE4LjMxNyIgeT0iLTIxOSIgd2lkdGg9Ijc3Ni4zNjYiIGhlaWdodD0iODgwIiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+CjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+CjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9InNoYXBlIi8+CjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjI1IiByZXN1bHQ9ImVmZmVjdDFfZm9yZWdyb3VuZEJsdXIiLz4KPC9maWx0ZXI+CjxmaWx0ZXIgaWQ9ImZpbHRlcjNfZiIgeD0iOTUiIHk9Ii0yNTgiIHdpZHRoPSI2NDMiIGhlaWdodD0iNjQzIiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+CjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+CjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9InNoYXBlIi8+CjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjIwIiByZXN1bHQ9ImVmZmVjdDFfZm9yZWdyb3VuZEJsdXIiLz4KPC9maWx0ZXI+CjxmaWx0ZXIgaWQ9ImZpbHRlcjRfZiIgeD0iLTM5MC45NjUiIHk9Ii00MDciIHdpZHRoPSI4NzQuOTMiIGhlaWdodD0iNzY1Ljc1IiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+CjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+CjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9InNoYXBlIi8+CjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjE1IiByZXN1bHQ9ImVmZmVjdDFfZm9yZWdyb3VuZEJsdXIiLz4KPC9maWx0ZXI+CjxmaWx0ZXIgaWQ9ImZpbHRlcjVfZiIgeD0iMTk1IiB5PSIxNCIgd2lkdGg9IjIxNCIgaGVpZ2h0PSIyNzciIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIj4KPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0ic2hhcGUiLz4KPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMTAiIHJlc3VsdD0iZWZmZWN0MV9mb3JlZ3JvdW5kQmx1ciIvPgo8L2ZpbHRlcj4KPC9kZWZzPgo8L3N2Zz4K");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+}
+main .container {
+  display: flex;
+  align-items: center;
+  background-color: rgba(2, 14, 39, 0.3);
+  backdrop-filter: blur(32px);
+  margin: auto;
+  width: 70vw;
+  height: 70vh;
+  justify-content: space-between;
+  padding: 40px;
+}
+main .container .presentation {
+  width: 50%;
+  position: relative;
+}
+main .container .presentation__title {
+  font-size: 48px;
+  margin-bottom: 11px;
+  font-weight: bold;
+  color: #fff;
+}
+main .container .presentation__subtitle {
+  color: #fff;
+}
+main .container .presentation__image {
+  height: 300px;
+  position: absolute;
+  top: -170%;
+  right: -9%;
+  z-index: -1;
+}
+main .container__calculator {
+  width: 45%;
+}
+main .container__calculator .form {
+  display: flex;
+  flex-direction: column;
+}
+main .container__calculator .form__input {
+  color: rgba(255, 255, 255, 0.733);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid white;
+  padding: 5px;
+  margin-bottom: 24px;
+  outline: none;
+}
+main .container__calculator .form__input:last-of-type {
+  margin-bottom: 40px;
+}
+main .container__calculator .form__input::placeholder {
+  font-family: "Poppins", sans-serif;
+  color: rgba(255, 255, 255, 0.733);
+}
+main .container__calculator .form__input:active {
+  border: 0;
+}
+main .container__calculator .form__label {
+  text-align: end;
+  color: rgba(255, 255, 255, 0.733);
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 24px;
+}
+main .container__calculator .form .actions {
+  display: flex;
+  justify-content: center;
+}
+main .container__calculator .form .actions__button {
+  width: 70%;
+  border: 0;
+  height: 40px;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.2s;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #020e27cc;
+  font-size: 18px;
+  font-weight: bold;
+}
+main .container__calculator .form .actions__button:hover {
+  transform: scale(1.05);
+  background-color: rgba(2, 14, 39, 0.6);
+  color: white;
+  font-weight: normal;
+}
+
+/*# sourceMappingURL=style.css.map */
