@@ -11,17 +11,17 @@ function takeInput() {
   * return string
   */
 function converter(inputRealValue) {
-    const dollar = 5.19
+    const dollar = 0.20
     const converterToDollar = (inputRealValue * dollar).toFixed(1)
 
-    const eur = 6.17
+    const eur = 0.16
     const converterToEur = (inputRealValue * eur).toFixed(1)
 
-    const pound = 7.19
+    const pound = 0.14
     const converterToPound = (inputRealValue * pound).toFixed(1)
 
-    const bitcoin = 268657.56
-    const converterToBitcoin = (inputRealValue * bitcoin).toFixed(1)
+    const bitcoin = 0.0000041
+    const converterToBitcoin = (inputRealValue * bitcoin).toFixed(5)
 
     return { converterToBitcoin, converterToDollar, converterToEur, converterToPound }
 }

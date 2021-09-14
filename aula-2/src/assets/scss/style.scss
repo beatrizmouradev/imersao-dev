@@ -62,7 +62,7 @@ body {
     }
 
     .main {
-        
+
         .form {
             display: flex;
             justify-content: space-between;
@@ -72,17 +72,18 @@ body {
                 display: flex;
                 flex-direction: column;
 
-                &__money, &__input {
+                &__money,
+                &__input {
                     border: 0;
                     border-radius: 8px;
                     background-color: #B1BCCD;
                     margin-bottom: 8px;
                     box-shadow: 3px 3px 8px #B1BCCD;
+                    width: 90px;
                     outline: none;
                     padding: 20px;
                     font-size: 16px;
                     font-family: "Poppins";
-                    min-width: 88px;
                     height: 16px;
                     text-align: center;
 
@@ -101,6 +102,7 @@ body {
                     background-color: #0C0D5B;
                     padding: 12px 20px;
                     display: flex;
+                    justify-content: space-between;
                     box-shadow: 3px 3px 8px #B1BCCD;
 
 
@@ -122,8 +124,8 @@ body {
 
         &__image {
             position: absolute;
-            left: 160px;
-            bottom: 59px;
+            left: 40px;
+            bottom: -16px;
             height: 250px;
         }
     }
