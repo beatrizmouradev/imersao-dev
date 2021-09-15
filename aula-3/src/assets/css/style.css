@@ -1,0 +1,110 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: #C0EFAD;
+}
+
+* {
+    color: #535461;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #C0EFAD;
+    backdrop-filter: blur(32px);
+    margin: auto;
+    width: 70vw;
+    height: 70vh;
+    justify-content: space-between;
+    padding: 40px;
+    border-radius: 2%;
+    box-shadow: rgb(255 255 255 / 10%) 0px 1px 1px 0px inset, rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;
+}
+
+.container__image {
+    position: relative;
+    width: 40%;
+}
+
+img {
+    height: 359px;
+    position: absolute;
+    top: -135px;
+}
+
+.container__game {
+    width: 50%;
+    height: 100%;
+    margin-left: 32px;
+}
+
+h1 {
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 32px;
+}
+
+.box {
+    background-color: #C0EFAD;
+    box-shadow: rgb(255 255 255 / 10%) 0px 1px 1px 0px inset, rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;
+    backdrop-filter: blur(32px);
+    border-radius: 2%;
+    min-height: 212px;
+}
+
+.box-1{
+    padding: 40px 40px 0 40px;
+}
+
+.interacao {
+    display: flex;
+    justify-content: center;
+}
+#chute {
+    outline: none;
+    font-family: 'Quicksand', sans-serif;
+    background: transparent;
+    border: 1px solid #535461;
+    height: 40px;
+    width: 118px;
+    padding-left: 16px;
+    margin-right: 16px;
+    box-shadow: 0 10px 22px -11px #777;
+}
+
+button {
+    box-shadow: 0 10px 22px -11px #777;
+    font-family: 'Quicksand', sans-serif;
+    background: #F5B914;
+    border: 1px solid #535461;
+    height: 44px;
+    font-weight: 900;
+    text-align: center;
+    color: #32323a;
+    width: 138px;
+}
+
+#resultado {
+    margin-top: 32px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    min-height: 48px;
+}
+
+#mensagemResultado {
+    background-color: white;
+    margin-top: 24px;
+    text-align: center;
+    padding: 8px;
+}
