@@ -16,23 +16,18 @@
 <body>
     <main>
         <div class="container">
-            <section class="container__image">
-                <img src="./src/assets/img/undraw_video_game_night_8h8m 1.svg" alt="">
+            <section class="container__image image">
+                <img class="image__game" src="./src/assets/img/videogame.svg" alt="">
             </section>
-            <section class="container__game">
-                <h1>JOGO DA ADIVINHAÇÃO</h1>
-                <h2>Digite um número entre 0 e 10!</h2>
-                <div class="box">
-                    <div class="box-1">
-                        <div class="interacao">
-                            <input id="chute" type="number"></input>
-                            <button type="button" onclick="advinha()">Advinhar</button>
-
-                        </div>
-                        <h3 id="resultado"></h3>
-                    </div>
-                    <p id="mensagemResultado"></p>
+            <section class="container__game game">
+                <h1 class="game__title">JOGO DA ADIVINHAÇÃO</h1>
+                <h2 class="game__subtitle">Digite um número entre 0 e 10!</h2>
+                <div class=" game__action action">
+                    <input id="chute" class="action__input" type="number"></input>
+                    <button class="action__button" type="button" onclick="advinha()">Advinhar</button>
                 </div>
+                <h3 class="game__resultado" id="resultado">Você acertou!</h3>
+                <p class="game__mensagem-resultado" id="mensagemResultado">Parabéns!<br><br> O número secreto era 5. Vamos jogar novamente?"</p>
             </section>
         </div>
     </main>

@@ -6,6 +6,7 @@ sans-serif;
     box-shadow: rgb(255 255 255 / 10%) 0px 1px 1px 0px inset, rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;
 }
 
+
 body {
     font-family: $font;
     min-height: 400px;
@@ -21,112 +22,95 @@ main {
 
     .container {
         display: flex;
-        flex-direction: column;
+        align-items: center;
         background-color: rgba(2, 14, 39, 0.3);
         backdrop-filter: blur(32px);
         margin: auto;
-        width: 70vw;
+        width: 60vw;
         height: 70vh;
+        justify-content: space-between;
         padding: 40px;
         @extend %caracteristicas-container;
 
-        &__title {
-            font-size: 48px;
-            font-weight: bolder;
-            color: #ffff;
-            margin-bottom: 16px;
+        .image {
+            position: relative;
+            width: 40%;
+
+            &__game {
+                height: 300px;
+                position: absolute;
+                top: -110px;
+            }
 
         }
 
-        &__subtitle {
-            font-size: 24px;
-            color: #ffff;
-            margin-bottom: 48px;
+        .game {
+            height: 100%;
+            margin-left: 32px;
 
+            &__title {
+                font-size: 56px;
+                font-weight: bold;
+                margin-bottom: 16px;
+                color: #ffff;
+                text-align: end;
+            }
 
-        }
-
-        &__error {
-            color: red;
-            margin-bottom: 8px;
-            font-size: 16px;
-        }
-
-        img {
-            height: 250px;
-            position: absolute;
-            top: 220px;
-            right: 5%;
-            z-index: -1;
-        }
-
-        .form {
-            display: flex;
-            flex-wrap: wrap;
-            width: 50%;
-
-
-            .group {
-                display: flex;
-                flex-direction: column;
-                
-                .input-real {
-                    width: 250px;
-                }
-                &__money, &__input {
-                    border: 0;
-                    border-radius: 8px;
-                    background-color: #B1BCCD;
-                    margin-bottom: 8px;
-                    box-shadow: 3px 3px 8px #B1BCCD;
-                    margin-right: 24px;
-                    width: 90px;
-                    outline: none;
-                    padding: 20px;
-                    font-size: 16px;
-                    font-family: "Poppins";
-                    height: 16px;
-                    text-align: center;
-
-
-                }
-
-                &__label {
-                    text-align: center;
-                    font-weight: bold;
-                    color: #0C0D5B;
-                }
-
-                &__button {
-                    border: 0;
-                    border-radius: 8px;
-                    background-color: #0C0D5B;
-                    padding: 12px 20px;
-                    margin-bottom: 24px;
-                    display: flex;
-                    width: 120px;
-                    justify-content: space-between;
-                    box-shadow: 3px 3px 8px #B1BCCD;
-
-
-
-                    svg {
-                        display: flex;
-                        margin: auto;
-                    }
-
-                }
-
+            &__subtitle {
+                font-size: 20px;
+                margin-bottom: 32px;
+                color: #ffff;
+                text-align: end;
 
 
             }
 
+            .action {
+                display: flex;
+                justify-content: end;
 
+                &__input {
+                    outline: none;
+                    font-family: 'Quicksand', sans-serif;
+                    background: transparent;
+                    border: 1px solid #ffff;
+                    height: 40px;
+                    width: 118px;
+                    padding-left: 16px;
+                    margin-right: 16px;
+                    box-shadow: 0 10px 22px -11px #777;
+                }
 
+                &__button {
+                    box-shadow: 0 10px 22px -11px #777;
+                    font-family: 'Quicksand', sans-serif;
+                    background: #3a3768;
+                    border: 0;
+                    height: 44px;
+                    font-weight: 900;
+                    text-align: center;
+                    color: #ffff;
+                    width: 138px;
+                }
+            }
+
+            &__resultado {
+                margin-top: 40px;
+                text-align: end;
+                font-size: 24px;
+                font-weight: bold;
+                min-height: 48px;
+                color: #ffff;
+
+            }
+
+            &__mensagem-resultado {
+                margin-top: 24px;
+                text-align: end;
+                padding: 8px;
+                color: #ffff;
+
+            }
         }
     }
 }
-
-
-
-
